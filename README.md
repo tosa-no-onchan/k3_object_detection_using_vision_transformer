@@ -13,7 +13,7 @@
 
 $ git clone ...   
   
-1. training
+1. training  
 $ source ~/xxx/bin/activate  
 $ python object_detection_using_vision_transformer.py
 
