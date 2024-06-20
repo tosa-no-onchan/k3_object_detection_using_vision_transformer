@@ -246,7 +246,7 @@ def create_vit_object_detector(
 """
 ## Run the experiment
 """
-def run_experiment(model, learning_rate, weight_decay, batch_size, num_epochs):
+def run_experiment(model, learning_rate, weight_decay, batch_size, num_epochs,x_train,y_train):
     optimizer = keras.optimizers.AdamW(
         learning_rate=learning_rate, weight_decay=weight_decay
     )
@@ -492,7 +492,7 @@ if __name__ == "__main__":
 
     # Train model
     history = run_experiment(
-        vit_object_detector, learning_rate, weight_decay, batch_size, num_epochs
+        vit_object_detector, learning_rate, weight_decay, batch_size, num_epochs,x_train,y_train
     )
 
 
