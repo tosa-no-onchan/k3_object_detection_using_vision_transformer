@@ -24,6 +24,7 @@ $ python predict.py
     
     雑草の学習と確認  
     tarin_zasou.py and predict_zasou.py  
+    An annotation format is YOLO.    
 
 
 参照  
