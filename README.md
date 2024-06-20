@@ -27,5 +27,6 @@ $ python predict.py
 
 
 参照  
+[google 画像のスクレイピング](https://github.com/tosa-no-onchan/annotation)  
 [Keras V3 Object detection with Vision Transformers を試す。](http://www.netosa.com/blog/2024/06/keras-v3-object-detection-with-vision-transformers.html)  
 [Ubuntu 22.04 Tensorflow GPU Install.](http://www.netosa.com/blog/2024/05/ubuntu-2204-tensorflow-gpu-install.html)  
