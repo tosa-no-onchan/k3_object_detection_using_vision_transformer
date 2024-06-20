@@ -20,6 +20,11 @@ $ python object_detection_using_vision_transformer.py
 3. predict  
 $ python predict.py  
 
+##### 2. append  
+    
+    雑草の学習と確認  
+    tarin_zasou.py and predict_zasou.py  
+
 
 参照  
 [Keras V3 Object detection with Vision Transformers を試す。](http://www.netosa.com/blog/2024/06/keras-v3-object-detection-with-vision-transformers.html)  
